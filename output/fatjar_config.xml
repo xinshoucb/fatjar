@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+    <jars> 
+		<jar path="C:\\Users\\Administrator\\Desktop\\fatjar\\base.jar"/>
+		<jar path="C:\\Users\\Administrator\\Desktop\\fatjar\\cardboard.jar"/>
+	</jars>
+	
+	<assets path="C:\\Users\\Administrator\\Desktop\\fatjar\\assets"/>
+</files>
