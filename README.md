@@ -6,12 +6,12 @@
 #### 2. 使用方法 
 
 * 将准备合并的jar的路径配置到fatjar_congig.xml中；
-* 将 fatjar_congig.xml 和 fatjar_0818.jar 放在同一个目录下，双击fatjar_0818.jar即可。
-* 添加gradle的task: 
+* 将 fatjar_congig.xml 和 fatjar_0818.jar 放在同一个目录下，双击fatjar_0818.jar即可；
+* 将 fatjar_congig.xml 和 fatjar_0818.jar 放在build.gradle文件所在目录下，添加gradle的task，执行task即可；
 
     task fatjar (type: JavaExec) {
         javaexec {
             main="-jar";
-            args = ["C:\\fatjar\\fatjar_0818.jar"]
+            args = ["fatjar_0818.jar"]；
         }
     }
