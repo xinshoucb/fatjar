@@ -1,1 +1,2 @@
 # fatjar
+开发过程中经常需要将多个jar包整合成一个jar包对外输出。在eclipse上开发时有一个eclipse fatjar plugin可以帮助我们完成这项工作，但开发工具换成Android studio之后我没有找到类似功能的插件，所以就自己写了一个整合jar的小工具，然后在build.gradle中添加一个task来执行它，也实现了类似的功能。
